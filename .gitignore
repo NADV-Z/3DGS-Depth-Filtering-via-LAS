@@ -1,0 +1,33 @@
+*.pyc
+.vscode
+output
+build
+diff_rasterization/diff_rast.egg-info
+diff_rasterization/dist
+tensorboard_3d
+screenshots
+# Logs
+*.log
+
+# Local IDE
+.idea/
+
+# Data and training outputs
+data/
+output/
+*.las
+*.laz
+*.npy
+*.npz
+*.pth
+*.ply
+
+# Archives and duplicated extracted folders
+*.zip
+submodules/diff-gaussian-rasterization/third_party/glm/test/
+# Build/cache artifacts
+__pycache__/
+*.pyc
+*.egg-info/
+submodules/simple-knn/simple_knn.egg-info/
+submodules/diff-gaussian-rasterization/third_party/glm/util/
